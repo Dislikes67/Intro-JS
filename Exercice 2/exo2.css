@@ -28,16 +28,16 @@ body{
 }
 
 .red {
-    background: red;
+    background: rgb(175, 9, 9);
 }
 .green {
-    background: green;
+    background: rgb(55, 180, 55);
 }
 .yellow {
-    background: yellow;
+    background: rgb(129, 129, 11);
 }
 .blue {
-    background: blue;
+    background: rgb(43, 43, 224);
 }
 
 .btn {
