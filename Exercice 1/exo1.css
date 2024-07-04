@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing : border-box ;
+    
+    
+}
+
+#wrapper{
+    display: flex;
+    margin: 300px auto;
+    justify-content: center;
+    
+}
+
+#square{
+    width: 200px;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    display: "Times New Roman"(40px);
+    background-color:rebeccapurple;
+    color:white;
+    
+}
+
+#alertButton {
+    background: none;
+    border: none;
+    color: inherit;     /*fondu du bouton */
+    font: inherit;
+    cursor: pointer;
+    text-align: center;
+    font-size: 3em; /* Adjust size as needed */
+}
+
