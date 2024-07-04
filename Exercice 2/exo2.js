@@ -11,3 +11,7 @@ square.forEach((square) => {
     result.innerHTML = bgcolor;
   })
 })
+
+
+
+//recup ma property color pour la mettre aux autres
