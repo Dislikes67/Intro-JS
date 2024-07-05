@@ -5,16 +5,16 @@
 }
 #wrapper{
     display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 .container{
     display: grid; /*Modele de disposition en grille*/
-            grid-template-columns: repeat(2, 200px); /*Définit deux colonnes de 200 pixels*/
-            grid-template-rows: repeat(2, 200px);   /*Définit deux lignes de 200 pixels*/
-            gap: 10px;
+    grid-template-columns: repeat(2, 200px); /*Définit deux colonnes de 200 pixels*/
+    grid-template-rows: repeat(2, 200px);   /*Définit deux lignes de 200 pixels*/
+    gap: 10px;
 }
 .square {
     display: flex;
