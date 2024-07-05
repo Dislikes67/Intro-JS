@@ -6,16 +6,21 @@ function getAlertButtonProperties(){
 
     const style = window.getComputedStyle(square)
     const bgColorValue = style.getPropertyValue("background-color")
-    console.log(bgColorValue)
+    const colorTxt = style.getPropertyValue("color")
+    const heightValue = style.getPropertyValue("height")
+    const widthValue = style.getPropertyValue("width")
+    const displayType = style.getPropertyValue("display")
+    const fontFamilyType = style.getPropertyValue("font-family")
 
     // alert("-Background color:" + " " + bgColorValue + "\n" + ) 
     alert(`
-        -Background color: ${bgColorValue}
-        dada                                    //template literal
-
-
-
-    
+    Class : square
+        -Background color : ${bgColorValue}
+        -Color : ${colorTxt}
+        -Height : ${heightValue}
+        -Width : ${widthValue}
+        -Display : ${displayType}
+        -Display : ${fontFamilyType}
         `) 
 }
 
