@@ -27,10 +27,10 @@
 #alertButton {
     background: none;
     border: none;
-    color: inherit;     /*fondu du bouton */
+    color: inherit;     
     font: inherit;
     cursor: pointer;
     text-align: center;
-    font-size: 3em; /* Adjust size as needed */
+    font-size: 3em; 
 }
 
