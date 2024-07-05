@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+.container{
+    display: flex;
+    /* width: 100%;*/
+    justify-content:flex-start ;
+    align-items: center;
+
+}
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.square1 {
+    background: rgb(175, 9, 9);
+}
+.square2 {
+    background: rgb(55, 180, 55);
+}
+.square3 {
+    background: yellow;
+}
+.square3 {
+    background: rgb(43, 43, 224);
+}
