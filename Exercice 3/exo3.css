@@ -26,3 +26,8 @@
     background-color: rgb(79, 133, 79);
     transition: transform 1s, background-color 1s, width 1s, height 1s; /*transition d'une seconde pour les transformations*/
 }
+
+.active {
+    transform: rotate(360deg) scale(0.9);
+    background: #AA716C;
+}
