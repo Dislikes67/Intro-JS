@@ -8,8 +8,9 @@
 
 #wrapper{
     display: flex;
-    margin: 300px auto;
+    min-height: 100vh;
     justify-content: center;
+    align-items: center;
     
 }
 
