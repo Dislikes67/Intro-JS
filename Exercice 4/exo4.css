@@ -6,12 +6,55 @@
 #wrapper{
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100vh;
+    
 }
 .container{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 80vh;
+    background-color:#C0BFBE;
 
 }
 .square{
-    display: flex
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 130px;
+    /* border: 1px solid; */
+    margin: 0 25px;
 }
+h1{
+    position: absolute;
+    left: 895px;
+    top: 320px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+#fb{
+    background-color: #455A99;
+
+
+}
+#twt{
+    background-color: #4BACF0;
+
+
+}
+#inst{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    
+
+
+
+}
+#img{
+    width : 10%;
+    height : 10%;
+}
+
+/* border-radius: 15px; pour arrondir les bords */
