@@ -27,6 +27,7 @@
     width: 130px;
     /* border: 1px solid; */
     margin: 0 25px;
+    transition: transform 1s, background-color 1s, width 1s, height 1s;
 }
 h1{
     position: absolute;
@@ -37,20 +38,15 @@ h1{
   }
 #fb{
     background-color: #455A99;
-
-
 }
 #twt{
     background-color: #4BACF0;
-
-
 }
 #inst{
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    
-
-
-
+}
+.active {
+    transform: rotate(360deg) scale(0.9);
 }
 
 
