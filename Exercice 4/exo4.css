@@ -26,9 +26,11 @@
     height: 130px;
     width: 130px;
     border: 1px solid;
-    border-color: white;
+    border-color: whitesmoke;
     margin: 0 25px;
-    transition: transform 1s, background-color 1s, width 1s, height 1s;
+}
+img {
+    transition: 1s;
 }
 h1{
     position: absolute;
@@ -46,8 +48,12 @@ h1{
 #inst{
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
-.active {
-    transform: rotate(360deg) scale(0.8);
+.activeImg{
+    transform: rotate(360deg) scale(1.2);
+}
+.active{
+    transition: 1s;
+    transform: scale(1.05);
     border-radius: 15px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.418);
 }
