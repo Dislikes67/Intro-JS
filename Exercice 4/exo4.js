@@ -26,3 +26,5 @@ const squares = document.querySelectorAll(".square");
             square.classList.toggle("active");
         });
     });
+
+    //Pour integrer le gradiant mettre juste background et non background colo
