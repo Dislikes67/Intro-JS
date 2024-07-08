@@ -4,6 +4,6 @@ square.forEach((square) => {
     square.addEventListener("click", ()  => {
         const bgColor = getComputedStyle(square).backgroundColor
         result.style.backgroundColor = bgColor;
-        square.classList.toggle("active")
+        square.childNodes[0].classList.toggle("active")
     })
 })
