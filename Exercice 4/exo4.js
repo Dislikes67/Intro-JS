@@ -24,5 +24,8 @@ const squares = document.querySelectorAll(".square");
 
             // Toggle the 'active' class on the square
             square.classList.toggle("active");
+
+            const caption = square.querySelector(".caption");
+            caption.classList.toggle("showCaption");
         });
     });
