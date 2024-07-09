@@ -50,8 +50,7 @@ h1{
     background-color: #4BACF0;
 }
 #inst{
-    background-color: #DD2A7B;
-    /* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);   dont work with gradient unless it's just background and not backgroundcolor, but then it's not coming back to grey  */
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 .caption {
     display: none;
