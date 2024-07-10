@@ -8,7 +8,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("exo5.png");
+    background-image: url("exo5.jpg");
+    background-size: cover;
 }
 
 #wrapper{
@@ -17,7 +18,18 @@ body{
     align-items: center;
     height: 35vh;
     width: 80vh;
-    border-radius: 15px;
-    background-color:red;
     position: relative;
+}
+.converter{
+    color: white;
+    width: 500px;
+    height: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.452);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
