@@ -33,3 +33,13 @@ body{
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
+.result {
+    margin-top: 20px; /* Add space between the input and the result text */
+    font-size: 1em; /* Adjust the font size as needed */
+}
+
+.error {
+    margin-top: 10px; /* Add space between the input and the error text */
+    color: red; /* Set the error text color */
+    font-size: 1em; /* Adjust the font size as needed */
+}
