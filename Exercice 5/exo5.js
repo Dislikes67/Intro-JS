@@ -1,24 +1,25 @@
 function convertToFrancs() {
-    const input = document.getElementById('euroInput').value;
-    const resultElement = document.getElementById('result');
-    const errorElement = document.getElementById('error');
-    
-    // Effacer les messages précédents
-    resultElement.innerText = '';
-    errorElement.innerText = '';
-    
-    // Vérifier si l'entrée est un nombre
-    if (isNaN(input)) {
-        errorElement.innerText = 'Veuillez entrer une valeur numérique.';
+    // Get the input field and the result/error divs
+    const euroInput = document.getElementById('euroInput');
+    const resultDiv = document.getElementById('result');
+    const errorDiv = document.getElementById('error');
+
+    // Clear previous results and errors
+    resultDiv.textContent = '';
+    errorDiv.textContent = '';
+
+    // Get the input value
+    const euros = euroInput.value;
+
+    // Check if the input is a valid number
+    if (isNaN(euros)) {
+        errorDiv.textContent = 'Vous devez saisir une valeur numérique.';
         return;
     }
 
-    const euroValue = parseFloat(input);
-    if (isNaN(euroValue)) {
-        errorElement.innerText = 'Veuillez entrer une valeur numérique.';
-        return;
-    }
+    // Convert euros to francs
+    const francs = euros * 6.55957;
 
-    const francValue = euroValue * 6.55957; // Taux de conversion historique : 1 euro = 6.55957 francs français
-    resultElement.innerText = `${euroValue} euros = ${francValue.toFixed(2)} francs`;
+    // Display the result
+    resultDiv.textContent = `${francs.toFixed(2)} francs`;
 }
