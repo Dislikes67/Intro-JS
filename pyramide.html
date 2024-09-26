@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyramide</title>
+    <style>
+        pre {
+            font-family: monospace;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pyramide de #</h1>
+    <pre id="pyramide"></pre>
+
+    <script>
+        const character = "#";
+        const count = 8;
+        const rows = [];
+        let inverted = false;  //Pour changer le sens de la pyramide changer false en true
+
+        function padRow(rowNumber, rowCount) {
+            return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+        }
+
+        let i = 1;
+        while (i <= count) {
+            if (inverted) {
+                rows.unshift(padRow(i, count));
+            } else {
+                rows.push(padRow(i, count));
+            }
+            i++;
+        }
+
+        let result = "";
+
+        for (const row of rows) {
+            result += row + "\n";
+        }
+
+        // Insère la pyramide dans l'élément HTML avec l'id 'pyramide'
+        document.getElementById("pyramide").textContent = result;
+    </script>
+
+</body>
+</html>
